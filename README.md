@@ -20,4 +20,11 @@
 2. The form data is sent as JSON to a Google Apps Script.
 3. The script appends the data to a Google Sheet for tracking.
 
+## Learnings
+During this project, I tackled various challenges and expanded my skills:
 
+- **CORS Errors:** Learned how to handle Cross-Origin Resource Sharing issues effectively.
+- **Proxy Server:** Implemented and configured a proxy server for smooth development and API interactions.
+- **Library Integration:** Gained hands-on experience with **Tailwind CSS** and **DaisyUI** for modern, responsive design.
+
+This project was a great way to dive into the MERN stack and solve practical problems while learning new skills. 🚀
