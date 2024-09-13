@@ -1,0 +1,39 @@
+# General ignores for all projects
+.DS_Store
+.env
+.env.local
+.env.*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Ignore node_modules and log files from all subdirectories
+node_modules/
+*.log
+
+# Client (React, Vite, Tailwind)
+client/node_modules/
+client/dist/
+client/.vite/
+client/.env.local
+client/.tailwind-cache/
+client/.postcssrc/
+client/.DS_Store
+
+# Server (Node.js, Express)
+server/node_modules/
+server/logs/
+server/.env
+server/.env.local
+server/.DS_Store
+
+# IDE/editor-specific
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
